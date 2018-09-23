@@ -1,1 +1,2 @@
-简单web服务器
+-   简单web服务器
+-   运行advance/src/main/py/net_case.py即可
