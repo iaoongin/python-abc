@@ -1,8 +1,8 @@
-from advance.src.main import HttpRequest
-from advance.src.main.HttpMethod import HttpMethod
-from advance.src.main.HttpResponse import HttpResponse
-from advance.src.main.Logger import Logger
-from src import dirname
+import HttpRequest
+from HttpMethod import HttpMethod
+from HttpResponse import HttpResponse
+from Logger import Logger
+from advance.src.main import dirname
 
 
 class Servlet:

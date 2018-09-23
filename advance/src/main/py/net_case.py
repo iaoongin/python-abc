@@ -1,9 +1,8 @@
 import socket
+from socket_handler import socket_handler
 
-from advance.src.main.HttpRequest import HttpRequest
-from advance.src.main.HttpResponse import HttpResponse
-from advance.src.main.HttpServlet import HttpServlet
-from advance.src.main.Logger import Logger
+from Logger import Logger
+
 
 # 日志
 logger = Logger.get_logger("net_case")
@@ -35,16 +34,8 @@ class Server:
             clientsocket, addr = self.serverSocket.accept()
             # logger.info("连接地址: %s", addr)
 
-            recv = clientsocket.recv(1024)
-            # logger.info(str(recv, 'utf8'))
-
-            clientsocket.settimeout(1000)
-            # 解析请求
-            http_request = HttpRequest.parse(recv)
-
-            # 处理请求，并响应
-            http_servlet = HttpServlet()
-            http_servlet.service(http_request, clientsocket)
+            sh = socket_handler(clientsocket, addr);
+            sh.start()
 
             # 过滤器
             # fileter = HttpFilter(http_request, http_response)

@@ -1,4 +1,4 @@
-from advance.src.main import HttpMethod
+import HttpMethod
 
 HttpMethod = HttpMethod.HttpMethod
 
