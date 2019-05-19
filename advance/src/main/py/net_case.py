@@ -34,7 +34,7 @@ class Server:
             clientsocket, addr = self.serverSocket.accept()
             # logger.info("连接地址: %s", addr)
 
-            sh = socket_handler(clientsocket, addr);
+            sh = socket_handler(clientsocket, addr)
             sh.start()
 
             # 过滤器
@@ -45,5 +45,5 @@ class Server:
 # class Request:
 
 
-server = Server(8888)
+server = Server()
 server.server()
