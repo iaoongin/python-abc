@@ -1,8 +1,6 @@
 import socket
-from socket_handler import socket_handler
-
-from Logger import Logger
-
+from advance.socket_handler import socket_handler
+from advance.Logger import Logger
 
 # 日志
 logger = Logger.get_logger("net_case")
@@ -11,8 +9,8 @@ logger = Logger.get_logger("net_case")
 class Server:
     """网络服务"""
     # host = socket.gethostname()
-    host = '127.0.0.1'
-    port = 80
+    host = 'localhost'
+    port = 0
     serverSocket = None
     maxListenerNum = 5
 
@@ -27,7 +25,7 @@ class Server:
         self.serverSocket.bind((self.host, self.port))
         self.serverSocket.listen(self.maxListenerNum)
 
-        logger.info("服务地址: %s:%s", self.host, self.port)
+        logger.info("服务地址: http://%s:%s", self.host, self.port)
 
         while True:
             # 建立客户端连接
@@ -45,5 +43,5 @@ class Server:
 # class Request:
 
 
-server = Server()
+server = Server(8888)
 server.server()

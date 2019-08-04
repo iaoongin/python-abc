@@ -1,7 +1,7 @@
 import threading
-from HttpRequest import HttpRequest
-# from HttpServlet import HttpServlet
-from PassByServlet import PassByServlet
+from advance.HttpRequest import HttpRequest
+from advance.HttpServlet import HttpServlet
+from advance.PassByServlet import PassByServlet
 
 
 class socket_handler(threading.Thread):
@@ -22,5 +22,5 @@ class socket_handler(threading.Thread):
         http_request = HttpRequest.parse(recv)
 
         # 处理请求，并响应
-        http_servlet = PassByServlet()
+        http_servlet = HttpServlet()
         http_servlet.service(http_request, self.clientsocket)

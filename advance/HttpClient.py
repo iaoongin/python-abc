@@ -25,4 +25,4 @@ class HttpClient:
         pass
 
 
-HttpClient.get("http://www.baidu.com", {'key': "1"})
+# HttpClient.get("http://www.baidu.com", {'key': "1"})

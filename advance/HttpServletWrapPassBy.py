@@ -1,7 +1,6 @@
-import HttpRequest
-from HttpServletWrap import HttpServletWrap
-from HttpResponse import HttpResponse
-from Logger import Logger
+from advance.HttpServletWrap import HttpServletWrap
+from advance import HttpResponse
+from advance.Logger import Logger
 
 logger = Logger.get_logger("http servlet")
 

@@ -1,25 +1,14 @@
-import HttpRequest
-from HttpMethod import HttpMethod
-from HttpResponse import HttpResponse
-from Logger import Logger
-from advance.src.main import dirname
+from advance.HttpRequest import HttpRequest
+from advance.HttpServlet import Servlet
+from advance.HttpMethod import HttpMethod
+from advance.HttpResponse import HttpResponse
+from advance.HttpClient import HttpClient
+from advance.Logger import Logger
+
+logger = Logger.get_logger("PassByServlet")
 
 
-class Servlet:
-    """处理请求和响应"""
-
-    request = None
-    response = None
-
-    def service(self, request, response):
-        self.request = request
-        self.response = response
-
-
-logger = Logger.get_logger("http servlet")
-
-
-class HttpServlet(Servlet):
+class PassByServlet(Servlet):
 
     def service(self, request, client_socket):
         method = request.method
@@ -62,21 +51,19 @@ class HttpServlet(Servlet):
             response.close()
             return
 
-        if uri_suffix in ("html", 'xhtml'):
-            response = HttpResponse(client_socket, content_type='text/html')
-            self.writeFile(request, response)
-            response.close()
-            return
-
-        response = HttpResponse(client_socket, status='404', reason='Not Found')
-        response.write_string("404 Not Found")
+        # if uri_suffix in ("html", 'xhtml'):
+        response = HttpResponse(client_socket, content_type='text/html')
+        self.writeFile(request, response)
         response.close()
         return
 
+        # response = HttpResponse(client_socket, status='404', reason='Not Found')
+        # response.write_string("404 Not Found")
+        # response.close()
+        # return
+
     def writeFile(self, request, response):
-        with open(dirname + "/resources" + request.request_uri, 'rb') as file:
-            bufl = 1024
-            cont = file.read(bufl)
-            while len(cont) > 0:
-                response.write(cont)
-                cont = file.read(bufl)
+        # print(request.url_param_str)
+        get = HttpClient.get("http://www.baidu.com" + request.request_uri, {}, request.url_param_str)
+        response.write(get)
+

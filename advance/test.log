@@ -1,522 +1,131 @@
-[2018-09-06 22:48:35,605][8800][net_case.py][line: 45][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 22:48:40,681][8800][net_case.py][line: 50][INFO] ## 连接地址: %s('127.0.0.1', 7065)
-[2018-09-06 22:48:53,270][6440][net_case.py][line: 45][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 22:48:54,776][6440][net_case.py][line: 50][INFO] ## 连接地址: ('127.0.0.1', 7066)
-[2018-09-06 22:49:57,596][10220][net_case.py][line: 45][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 22:50:11,653][5484][net_case.py][line: 45][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 22:51:01,986][5484][net_case.py][line: 50][INFO] ## 连接地址: ('127.0.0.1', 7076)
-[2018-09-06 22:51:01,987][5484][net_case.py][line: 53][INFO] ## b'GET / HTTP/1.1\r\nHost: 127.0.0.1:8888\r\nConnection: keep-alive\r\nCache-Control: no-cache\r\nContent-Type: application/json\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36\r\nPostman-Token: c3c58903-3cc8-8019-77fa-d53b48203c56\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: zh-CN,zh;q=0.9,en;q=0.8\r\n\r\n'
-[2018-09-06 22:51:11,531][8532][net_case.py][line: 45][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 22:51:13,536][8532][net_case.py][line: 50][INFO] ## 连接地址: ('127.0.0.1', 7077)
-[2018-09-06 22:51:13,537][8532][net_case.py][line: 53][INFO] ## b'GET / HTTP/1.1\r\nHost: 127.0.0.1:8888\r\nConnection: keep-alive\r\nCache-Control: no-cache\r\nContent-Type: application/json\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36\r\nPostman-Token: f560d429-1835-bdb1-9e27-664879bfabfb\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: zh-CN,zh;q=0.9,en;q=0.8\r\n\r\n'
-[2018-09-06 22:51:30,192][11256][net_case.py][line: 45][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 22:51:31,796][11256][net_case.py][line: 50][INFO] ## 连接地址: ('127.0.0.1', 7080)
-[2018-09-06 22:51:31,797][11256][net_case.py][line: 53][INFO] ## b'GET / HTTP/1.1\r\nHost: 127.0.0.1:8888\r\nConnection: keep-alive\r\nCache-Control: no-cache\r\nContent-Type: application/json\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36\r\nPostman-Token: fd30e7ed-a0d1-1cb3-a1b4-e3998dff9e11\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: zh-CN,zh;q=0.9,en;q=0.8\r\n\r\n'
-[2018-09-06 22:51:48,003][2260][net_case.py][line: 45][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 22:51:49,576][2260][net_case.py][line: 50][INFO] ## 连接地址: ('127.0.0.1', 7081)
-[2018-09-06 22:51:49,576][2260][net_case.py][line: 53][INFO] ##
-
-GET / HTTP/1.1
-
-Host: 127.0.0.1:8888
-
-Connection: keep-alive
-
-Cache-Control: no-cache
-
-Content-Type: application/json
-
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-
-Postman-Token: b3bc4022-9062-9b62-40fe-55cd37f74a4a
-
-Accept: */*
-
-Accept-Encoding: gzip, deflate, br
-
-Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
-
-
-
-
-[2018-09-06 22:54:39,251][2260][net_case.py][line: 50][INFO] ## 连接地址: ('127.0.0.1', 7235)
-[2018-09-06 22:54:39,252][2260][net_case.py][line: 53][INFO] ##
-GET /?name=1 HTTP/1.1
-
-Host: 127.0.0.1:8888
-
-Connection: keep-alive
-
-Cache-Control: no-cache
-
-Content-Type: application/json
-
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-
-Postman-Token: 8c691de8-99b9-59a8-38e8-71c6458a6f4a
-
-Accept: */*
-
-Accept-Encoding: gzip, deflate, br
-
-Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
-
-
-
-
-[2018-09-06 22:55:00,435][2260][net_case.py][line: 50][INFO] ## 连接地址: ('127.0.0.1', 7244)
-[2018-09-06 22:55:00,436][2260][net_case.py][line: 53][INFO] ## POST / HTTP/1.1
-Host: 127.0.0.1:8888
-Connection: keep-alive
-Content-Length: 40
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-Cache-Control: no-cache
-Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
-Postman-Token: 99d3c5ac-7d9f-6f69-54a0-20f86f1e5bbb
-Content-Type: application/json
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
-
-{
-	"params":{
-		"repair_status":2
-	}
-	
-}
-[2018-09-06 23:08:05,435][1872][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:08:07,868][1872][net_case.py][line: 52][INFO] ## 连接地址: ('127.0.0.1', 7460)
-[2018-09-06 23:08:07,868][1872][net_case.py][line: 55][INFO] ## POST / HTTP/1.1
-Host: 127.0.0.1:8888
-Connection: keep-alive
-Content-Length: 40
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-Cache-Control: no-cache
-Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
-Postman-Token: 74fa0a0a-c5c2-f7f9-a284-28a37c78bbe6
-Content-Type: application/json
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
-
-{
-	"params":{
-		"repair_status":2
-	}
-	
-}
-[2018-09-06 23:08:23,066][10984][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:08:24,607][10984][net_case.py][line: 55][INFO] ## POST / HTTP/1.1
-Host: 127.0.0.1:8888
-Connection: keep-alive
-Content-Length: 40
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-Cache-Control: no-cache
-Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
-Postman-Token: d1d9facd-0f7c-c1a6-d1d5-9f10f19c08f4
-Content-Type: application/json
-Accept: */*
-Accept-Encoding: gzip, deflate, br
-Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
-
-{
-	"params":{
-		"repair_status":2
-	}
-	
-}
-[2018-09-06 23:08:45,522][6548][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:09:38,496][6656][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:10:28,181][5248][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:10:41,566][7048][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:11:49,788][4472][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:26:39,192][1660][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:28:14,952][11908][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:31:46,385][10340][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:36:06,268][1728][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:37:01,312][1112][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:37:59,491][6912][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:38:33,213][6448][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:38:41,291][9376][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:38:53,405][4912][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:40:03,211][9204][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:40:29,996][6632][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:41:04,362][10624][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:41:45,861][5472][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:44:14,696][8664][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:44:29,723][10560][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:45:03,651][3808][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:45:39,855][8952][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:47:33,355][2188][net_case.py][line: 47][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-06 23:48:56,210][9004][net_case.py][line: 46][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:34:36,347][7540][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:34:36,347][7540][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:35:05,156][11164][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:35:05,156][11164][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:36:50,874][4768][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:36:50,874][4768][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:37:09,232][8736][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:37:09,232][8736][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:38:00,001][7924][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:38:00,001][7924][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:41:51,675][840][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:41:51,675][840][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:42:26,612][6420][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:42:26,612][6420][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:43:05,008][6420][HttpServlet.py][line: 25][INFO] ## 请求方式: GET
-[2018-09-09 16:43:05,008][6420][HttpServlet.py][line: 25][INFO] ## 请求方式: GET
-[2018-09-09 16:43:22,833][6420][HttpServlet.py][line: 25][INFO] ## 请求方式: GET
-[2018-09-09 16:43:22,833][6420][HttpServlet.py][line: 25][INFO] ## 请求方式: GET
-[2018-09-09 16:44:12,493][10712][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:44:12,493][10712][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:44:12,730][10712][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 16:44:12,730][10712][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 16:44:14,547][10712][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 16:44:14,547][10712][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 16:44:15,001][10712][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 16:44:15,001][10712][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 16:49:43,479][7444][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:49:43,479][7444][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:49:46,881][3628][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:49:46,881][3628][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:52:08,206][10612][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:52:08,206][10612][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:52:10,286][10612][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:52:10,286][10612][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:52:47,630][2272][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:52:47,630][2272][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:52:49,136][2272][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:52:49,136][2272][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:52:49,640][2272][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:52:49,640][2272][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:57:47,403][5664][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:57:47,403][5664][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:57:50,300][5664][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:57:50,300][5664][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:57:50,808][5664][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:57:50,808][5664][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:58:40,161][5664][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:58:40,161][5664][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:58:40,655][5664][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:58:40,655][5664][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:59:31,497][1300][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:59:31,497][1300][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 16:59:34,093][1300][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:59:34,093][1300][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:59:34,094][1300][HttpServlet.py][line: 29][INFO] ## 请求资源: /
-[2018-09-09 16:59:34,094][1300][HttpServlet.py][line: 29][INFO] ## 请求资源: /
-[2018-09-09 16:59:34,626][1300][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:59:34,626][1300][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 16:59:34,627][1300][HttpServlet.py][line: 29][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 16:59:34,627][1300][HttpServlet.py][line: 29][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 17:00:04,070][4296][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:00:04,070][4296][net_case.py][line: 33][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:00:06,485][4296][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 17:00:06,485][4296][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 17:00:06,485][4296][HttpServlet.py][line: 29][INFO] ## 请求资源: /
-[2018-09-09 17:00:06,485][4296][HttpServlet.py][line: 29][INFO] ## 请求资源: /
-[2018-09-09 17:00:07,009][4296][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 17:00:07,009][4296][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 17:00:07,010][4296][HttpServlet.py][line: 29][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 17:00:07,010][4296][HttpServlet.py][line: 29][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 17:07:44,732][8844][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:07:44,732][8844][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:10:00,718][4500][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:10:57,904][3708][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:11:01,885][3708][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 17:11:01,885][3708][HttpServlet.py][line: 29][INFO] ## 请求资源: /
-[2018-09-09 17:11:02,373][3708][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 17:11:02,374][3708][HttpServlet.py][line: 29][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 17:24:08,137][11008][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:24:11,524][11008][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 17:24:11,525][11008][HttpServlet.py][line: 29][INFO] ## 请求资源: /
-[2018-09-09 17:24:12,001][11008][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 17:24:12,002][11008][HttpServlet.py][line: 29][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 17:26:35,477][4920][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:26:37,335][4920][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 17:26:37,335][4920][HttpServlet.py][line: 29][INFO] ## 请求资源: /
-[2018-09-09 17:26:37,835][4920][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 17:26:37,835][4920][HttpServlet.py][line: 29][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 17:26:59,455][2592][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:27:00,797][2592][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 17:27:00,797][2592][HttpServlet.py][line: 29][INFO] ## 请求资源: /
-[2018-09-09 17:27:01,314][2592][HttpServlet.py][line: 28][INFO] ## 请求方式: GET
-[2018-09-09 17:27:01,315][2592][HttpServlet.py][line: 29][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 17:31:03,909][5000][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:31:07,324][5000][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:31:07,324][5000][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:31:07,813][5000][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:31:07,813][5000][HttpServlet.py][line: 32][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 17:35:22,157][9148][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:35:39,484][10140][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:35:44,190][10140][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:35:44,191][10140][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:35:44,646][10140][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:35:44,646][10140][HttpServlet.py][line: 32][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 17:37:48,661][7540][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:37:51,383][7540][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:37:51,383][7540][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:37:51,856][7540][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:37:51,856][7540][HttpServlet.py][line: 32][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 17:38:40,600][9760][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:38:44,016][9760][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:38:44,016][9760][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:38:44,493][9760][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:38:44,493][9760][HttpServlet.py][line: 32][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 17:39:59,464][7176][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:40:01,417][7176][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:40:01,417][7176][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:40:01,972][7176][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:40:01,972][7176][HttpServlet.py][line: 32][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 17:41:31,380][220][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:41:36,568][220][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:41:36,569][220][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:41:37,463][220][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:41:37,463][220][HttpServlet.py][line: 32][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 17:41:53,237][220][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:41:53,237][220][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:42:04,124][220][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:42:04,124][220][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:42:51,539][8216][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:42:53,124][8216][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:42:53,124][8216][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:43:11,701][9760][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:43:12,796][9760][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:43:12,797][9760][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:43:14,372][9760][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:43:14,372][9760][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:44:19,196][3536][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:44:21,416][3536][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:44:21,417][3536][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:44:38,648][2364][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:44:39,703][2364][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:44:39,704][2364][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:45:20,210][3952][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:45:44,752][9716][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:45:46,183][9716][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:45:46,183][9716][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:46:09,255][9832][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:46:10,178][9832][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:46:10,178][9832][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:46:27,481][11008][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:46:29,815][11008][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:46:29,815][11008][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:47:19,637][7456][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:47:22,064][7456][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:47:22,064][7456][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:47:31,015][2664][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:47:31,984][2664][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:47:31,984][2664][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:47:54,096][3932][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:47:54,584][3932][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:47:54,585][3932][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 17:47:54,585][3932][HttpServlet.py][line: 66][INFO] ## 进入/
-[2018-09-09 17:48:37,456][6776][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 17:48:40,486][6776][HttpServlet.py][line: 31][INFO] ## 请求方式: GET
-[2018-09-09 17:48:40,487][6776][HttpServlet.py][line: 32][INFO] ## 请求资源: /
-[2018-09-09 22:09:21,852][5880][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:09:29,288][5880][HttpServlet.py][line: 32][INFO] ## 请求方式: GET
-[2018-09-09 22:09:29,288][5880][HttpServlet.py][line: 33][INFO] ## 请求资源: /
-[2018-09-09 22:10:36,153][7856][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:10:38,622][7856][HttpServlet.py][line: 32][INFO] ## 请求方式: GET
-[2018-09-09 22:10:38,622][7856][HttpServlet.py][line: 33][INFO] ## 请求资源: /
-[2018-09-09 22:10:49,655][4356][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:10:50,910][4356][HttpServlet.py][line: 32][INFO] ## 请求方式: GET
-[2018-09-09 22:10:50,911][4356][HttpServlet.py][line: 33][INFO] ## 请求资源: /
-[2018-09-09 22:11:43,575][8424][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:11:46,417][8424][HttpServlet.py][line: 32][INFO] ## 请求方式: GET
-[2018-09-09 22:11:46,418][8424][HttpServlet.py][line: 33][INFO] ## 请求资源: /
-[2018-09-09 22:13:59,159][9764][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:14:08,349][1772][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:14:09,743][1772][HttpServlet.py][line: 32][INFO] ## 请求方式: GET
-[2018-09-09 22:14:09,743][1772][HttpServlet.py][line: 33][INFO] ## 请求资源: /
-[2018-09-09 22:14:09,744][1772][HttpServlet.py][line: 68][INFO] ## 进入/
-[2018-09-09 22:14:20,557][8508][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:14:20,823][8508][HttpServlet.py][line: 32][INFO] ## 请求方式: GET
-[2018-09-09 22:14:20,824][8508][HttpServlet.py][line: 33][INFO] ## 请求资源: /
-[2018-09-09 22:14:20,824][8508][HttpServlet.py][line: 68][INFO] ## 进入/
-[2018-09-09 22:15:26,273][548][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:15:27,847][548][HttpServlet.py][line: 32][INFO] ## 请求方式: GET
-[2018-09-09 22:15:27,847][548][HttpServlet.py][line: 33][INFO] ## 请求资源: /
-[2018-09-09 22:15:27,847][548][HttpServlet.py][line: 68][INFO] ## 进入/
-[2018-09-09 22:15:58,954][10892][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:16:00,039][10892][HttpServlet.py][line: 32][INFO] ## 请求方式: GET
-[2018-09-09 22:16:00,040][10892][HttpServlet.py][line: 33][INFO] ## 请求资源: /
-[2018-09-09 22:16:00,040][10892][HttpServlet.py][line: 68][INFO] ## 进入/
-[2018-09-09 22:16:02,453][10892][HttpServlet.py][line: 32][INFO] ## 请求方式: GET
-[2018-09-09 22:16:02,454][10892][HttpServlet.py][line: 33][INFO] ## 请求资源: /
-[2018-09-09 22:16:02,454][10892][HttpServlet.py][line: 68][INFO] ## 进入/
-[2018-09-09 22:16:41,320][8448][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:16:42,748][8448][HttpServlet.py][line: 32][INFO] ## 请求方式: GET
-[2018-09-09 22:16:42,748][8448][HttpServlet.py][line: 33][INFO] ## 请求资源: /
-[2018-09-09 22:16:42,749][8448][HttpServlet.py][line: 68][INFO] ## 进入/
-[2018-09-09 22:16:55,869][3408][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:16:56,669][3408][HttpServlet.py][line: 32][INFO] ## 请求方式: GET
-[2018-09-09 22:16:56,669][3408][HttpServlet.py][line: 33][INFO] ## 请求资源: /
-[2018-09-09 22:16:56,669][3408][HttpServlet.py][line: 68][INFO] ## 进入/
-[2018-09-09 22:18:21,548][6600][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:18:43,375][4752][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:19:54,411][8540][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:19:56,716][8540][HttpServlet.py][line: 29][INFO] ## 请求方式: GET
-[2018-09-09 22:19:56,716][8540][HttpServlet.py][line: 30][INFO] ## 请求资源: /
-[2018-09-09 22:19:56,716][8540][HttpServlet.py][line: 65][INFO] ## 进入/
-[2018-09-09 22:52:16,583][1436][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:52:19,385][1436][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 22:52:19,385][1436][HttpServlet.py][line: 27][INFO] ## 请求资源: /
-[2018-09-09 22:52:19,386][1436][HttpServlet.py][line: 60][INFO] ## 进入/
-[2018-09-09 22:54:27,761][5544][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:54:29,211][5544][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 22:54:29,212][5544][HttpServlet.py][line: 27][INFO] ## 请求资源: /
-[2018-09-09 22:56:57,606][704][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:56:58,760][704][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 22:56:58,761][704][HttpServlet.py][line: 27][INFO] ## 请求资源: /
-[2018-09-09 22:58:57,680][8676][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:58:59,355][8676][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 22:58:59,355][8676][HttpServlet.py][line: 27][INFO] ## 请求资源: /
-[2018-09-09 22:59:23,294][12256][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 22:59:23,743][12256][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 22:59:23,743][12256][HttpServlet.py][line: 27][INFO] ## 请求资源: /
-[2018-09-09 23:04:52,102][2628][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:04:53,816][2628][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:04:53,817][2628][HttpServlet.py][line: 27][INFO] ## 请求资源: /
-[2018-09-09 23:04:54,194][2628][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:04:54,195][2628][HttpServlet.py][line: 27][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 23:05:27,212][11736][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:05:28,692][11736][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:05:28,692][11736][HttpServlet.py][line: 27][INFO] ## 请求资源: /
-[2018-09-09 23:05:29,026][11736][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:05:29,027][11736][HttpServlet.py][line: 27][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 23:06:10,463][10344][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:06:11,086][10344][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:06:11,086][10344][HttpServlet.py][line: 27][INFO] ## 请求资源: /
-[2018-09-09 23:06:11,450][10344][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:06:11,451][10344][HttpServlet.py][line: 27][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 23:07:11,775][10344][HttpServlet.py][line: 26][INFO] ## 请求方式: 
-[2018-09-09 23:07:11,776][10344][HttpServlet.py][line: 27][INFO] ## 请求资源: 
-[2018-09-09 23:07:11,785][10344][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:07:11,785][10344][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:07:11,788][10344][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:07:11,788][10344][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:07:11,791][10344][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:07:11,791][10344][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:07:21,335][10344][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:07:21,335][10344][HttpServlet.py][line: 27][INFO] ## 请求资源: /
-[2018-09-09 23:07:21,897][10344][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:07:21,898][10344][HttpServlet.py][line: 27][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 23:07:28,054][10344][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:07:28,054][10344][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:07:28,056][10344][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:07:28,057][10344][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:07:28,059][10344][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:07:28,059][10344][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:09:56,590][11560][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:09:58,937][11560][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:09:58,937][11560][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:10:16,334][10420][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:10:16,737][10420][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:10:16,737][10420][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:11:19,652][6352][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:11:20,770][6352][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:11:20,771][6352][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:17:43,053][2476][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:17:45,828][2476][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:17:45,829][2476][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:17:55,358][12196][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:17:56,187][12196][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:17:56,187][12196][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:18:56,445][11624][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:18:59,352][11624][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:18:59,352][11624][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:22:41,578][1676][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:22:46,685][1676][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:22:46,686][1676][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:22:46,689][1676][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:22:46,690][1676][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:23:35,276][9052][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:23:35,309][9052][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:23:35,310][9052][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:23:46,503][4768][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:23:48,882][4768][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:23:48,882][4768][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:23:48,884][4768][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:23:48,885][4768][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:24:12,056][2656][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:24:13,736][2656][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:24:13,736][2656][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:24:13,738][2656][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:24:13,739][2656][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:24:53,008][2244][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:24:59,807][2244][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:24:59,807][2244][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:24:59,812][2244][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:24:59,812][2244][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:26:20,276][11776][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:26:26,518][11560][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:26:28,195][11560][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:26:28,196][11560][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:26:28,753][11560][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:26:28,753][11560][HttpServlet.py][line: 27][INFO] ## 请求资源: /favicon.ico
-[2018-09-09 23:26:39,783][11572][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:26:51,826][6392][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:26:54,843][6392][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:26:54,843][6392][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:27:05,484][6392][HttpServlet.py][line: 26][INFO] ## 请求方式: 
-[2018-09-09 23:27:05,485][6392][HttpServlet.py][line: 27][INFO] ## 请求资源: 
-[2018-09-09 23:27:45,166][11972][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:27:46,798][11972][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:27:46,798][11972][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:27:59,965][11972][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:27:59,966][11972][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:28:03,955][9668][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:28:04,796][9668][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:28:04,797][9668][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:28:28,544][9148][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:28:29,580][9148][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:28:29,580][9148][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:28:44,202][9148][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:28:44,202][9148][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:28:45,611][9148][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:28:45,612][9148][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:29:39,612][9148][HttpServlet.py][line: 26][INFO] ## 请求方式: 
-[2018-09-09 23:29:39,613][9148][HttpServlet.py][line: 27][INFO] ## 请求资源: 
-[2018-09-09 23:30:20,111][1512][net_case.py][line: 31][INFO] ## 服务地址: 127.0.0.1:8888
-[2018-09-09 23:30:21,483][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:30:21,483][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:30:21,745][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:30:21,746][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /bg.png
-[2018-09-09 23:30:22,357][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:30:22,357][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /bg.png
-[2018-09-09 23:30:35,449][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:30:35,449][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /www.google.cpm
-[2018-09-09 23:30:41,258][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:30:41,259][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:30:41,533][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:30:41,534][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /bg.png
-[2018-09-09 23:30:42,051][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:30:42,051][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /bg.png
-[2018-09-09 23:30:42,829][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:30:42,829][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /www.google.cpm
-[2018-09-09 23:30:44,178][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:30:44,179][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:30:44,472][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:30:44,472][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /bg.png
-[2018-09-09 23:30:53,588][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:30:53,588][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:30:53,841][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:30:53,841][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /bg.png
-[2018-09-09 23:30:56,908][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:30:56,908][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:30:57,150][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:30:57,150][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /bg.png
-[2018-09-09 23:30:57,764][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:30:57,764][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /bg.png
-[2018-09-09 23:31:04,196][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:31:04,197][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:31:04,448][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:31:04,449][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /bg.png
-[2018-09-09 23:31:08,003][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:31:08,003][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /index.html
-[2018-09-09 23:31:08,272][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: GET
-[2018-09-09 23:31:08,272][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: /bg.png
-[2018-09-09 23:31:53,788][1512][HttpServlet.py][line: 26][INFO] ## 请求方式: 
-[2018-09-09 23:31:53,788][1512][HttpServlet.py][line: 27][INFO] ## 请求资源: 
+[2019-08-04 23:37:32,480][140735713264512][net_case.py][line: 28][INFO] ## 鏈嶅姟鍦板潃: localhost:8888
+[2019-08-04 23:37:47,055][140735713264512][net_case.py][line: 28][INFO] ## 鏈嶅姟鍦板潃: http://localhost:8888
+[2019-08-04 23:37:48,273][123145519185920][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:37:48,273][123145519185920][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /
+[2019-08-04 23:37:48,438][123145524441088][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:37:48,438][123145524441088][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:37:53,126][123145520259072][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:37:53,127][123145520259072][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /index
+[2019-08-04 23:37:56,921][123145525514240][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:37:56,921][123145525514240][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /age
+[2019-08-04 23:38:19,912][123145520259072][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: 
+[2019-08-04 23:38:19,912][123145520259072][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: 
+[2019-08-04 23:38:22,233][123145525514240][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:38:22,233][123145525514240][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /
+[2019-08-04 23:38:22,297][123145530769408][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:38:22,298][123145530769408][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:39:54,123][123145520259072][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:39:54,123][123145520259072][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /
+[2019-08-04 23:39:54,218][123145525514240][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:39:54,219][123145525514240][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:41:39,011][123145520259072][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:41:39,011][123145520259072][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /index.html
+[2019-08-04 23:42:07,970][123145525514240][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: 
+[2019-08-04 23:42:07,970][123145525514240][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: 
+[2019-08-04 23:43:45,311][123145520259072][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:43:45,311][123145520259072][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /bg.png
+[2019-08-04 23:45:11,171][123145525514240][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: 
+[2019-08-04 23:45:11,171][123145525514240][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: 
+[2019-08-04 23:45:11,342][123145520259072][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:45:11,342][123145520259072][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /s
+[2019-08-04 23:45:18,202][123145520259072][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:45:18,202][123145520259072][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:45:18,218][123145525514240][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:45:18,218][123145525514240][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /s
+[2019-08-04 23:45:59,847][140735713264512][net_case.py][line: 28][INFO] ## 鏈嶅姟鍦板潃: http://localhost:8888
+[2019-08-04 23:46:02,688][123145324359680][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:46:02,688][123145324359680][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /index.html
+[2019-08-04 23:46:02,992][123145329614848][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:46:02,992][123145329614848][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:46:05,543][123145324359680][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:46:05,543][123145324359680][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:46:29,288][123145329614848][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: 
+[2019-08-04 23:46:29,288][123145329614848][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: 
+[2019-08-04 23:46:46,759][140735713264512][net_case.py][line: 28][INFO] ## 鏈嶅姟鍦板潃: http://localhost:8888
+[2019-08-04 23:46:48,013][123145343586304][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:46:48,013][123145343586304][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /index.html
+[2019-08-04 23:46:48,475][123145348841472][PassByServlet.py][line: 15][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:46:48,476][123145348841472][PassByServlet.py][line: 16][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:47:35,448][140735713264512][net_case.py][line: 28][INFO] ## 鏈嶅姟鍦板潃: http://localhost:8888
+[2019-08-04 23:47:37,995][123145490759680][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:47:37,995][123145490759680][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /index.html
+[2019-08-04 23:47:38,089][123145496014848][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:47:38,089][123145496014848][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:47:40,189][123145490759680][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:47:40,189][123145490759680][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /index.html
+[2019-08-04 23:49:00,276][140735713264512][net_case.py][line: 28][INFO] ## 鏈嶅姟鍦板潃: http://localhost:8888
+[2019-08-04 23:49:02,437][123145405964288][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:49:02,437][123145405964288][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /index.html
+[2019-08-04 23:49:02,520][123145411219456][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:49:02,520][123145411219456][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /bg.png
+[2019-08-04 23:49:02,665][123145405964288][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:49:02,665][123145405964288][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:49:02,734][123145405964288][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:49:02,734][123145405964288][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /bg.png
+[2019-08-04 23:49:36,229][123145405964288][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:49:36,229][123145405964288][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /index.html
+[2019-08-04 23:49:36,292][123145411219456][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:49:36,292][123145411219456][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /bg.png
+[2019-08-04 23:49:36,328][123145405964288][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:49:36,329][123145405964288][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:50:06,219][123145405964288][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:50:06,219][123145405964288][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /index.html
+[2019-08-04 23:50:06,280][123145411219456][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:50:06,280][123145411219456][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /bg.png
+[2019-08-04 23:50:06,316][123145405964288][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:50:06,316][123145405964288][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:50:17,337][123145405964288][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:50:17,338][123145405964288][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /index.html
+[2019-08-04 23:50:17,396][123145411219456][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:50:17,396][123145411219456][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /bg.png
+[2019-08-04 23:50:17,428][123145405964288][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:50:17,429][123145405964288][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:50:17,578][123145405964288][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:50:17,578][123145405964288][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /index.html
+[2019-08-04 23:50:17,605][123145411219456][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:50:17,605][123145411219456][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /bg.png
+[2019-08-04 23:50:17,644][123145405964288][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:50:17,644][123145405964288][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:50:17,794][123145405964288][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:50:17,794][123145405964288][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /index.html
+[2019-08-04 23:50:17,819][123145411219456][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:50:17,819][123145411219456][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /bg.png
+[2019-08-04 23:50:17,880][123145405964288][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:50:17,880][123145405964288][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:50:17,978][123145405964288][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:50:17,978][123145405964288][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /index.html
+[2019-08-04 23:50:18,004][123145411219456][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:50:18,004][123145411219456][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /bg.png
+[2019-08-04 23:50:18,043][123145405964288][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:50:18,043][123145405964288][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:51:53,902][140735713264512][net_case.py][line: 28][INFO] ## 鏈嶅姟鍦板潃: http://localhost:8888
+[2019-08-04 23:52:00,883][123145449369600][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:52:00,883][123145449369600][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /index.html
+[2019-08-04 23:52:00,943][123145454624768][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:52:00,943][123145454624768][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /bg.png
+[2019-08-04 23:52:00,977][123145449369600][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:52:00,977][123145449369600][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:52:06,162][123145449369600][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:52:06,162][123145449369600][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /index.html
+[2019-08-04 23:52:06,189][123145454624768][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:52:06,189][123145454624768][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /bg.png
+[2019-08-04 23:52:06,226][123145449369600][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:52:06,226][123145449369600][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:52:53,705][123145449369600][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:52:53,705][123145449369600][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /index.html
+[2019-08-04 23:52:53,766][123145454624768][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:52:53,767][123145454624768][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /bg.png
+[2019-08-04 23:52:53,804][123145449369600][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:52:53,804][123145449369600][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /favicon.ico
+[2019-08-04 23:52:54,514][123145449369600][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:52:54,514][123145449369600][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /new-girl.html
+[2019-08-04 23:53:10,559][123145449369600][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: 
+[2019-08-04 23:53:10,560][123145454624768][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: 
+[2019-08-04 23:53:10,560][123145449369600][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: 
+[2019-08-04 23:53:10,560][123145454624768][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: 
+[2019-08-04 23:53:10,560][123145459879936][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:53:10,561][123145459879936][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /index.html
+[2019-08-04 23:53:10,620][123145465135104][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:53:10,620][123145465135104][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /bg.png
+[2019-08-04 23:53:10,653][123145449369600][HttpServlet.py][line: 25][INFO] ## 璇锋眰鏂瑰紡: GET
+[2019-08-04 23:53:10,653][123145449369600][HttpServlet.py][line: 26][INFO] ## 璇锋眰璧勬簮: /favicon.ico

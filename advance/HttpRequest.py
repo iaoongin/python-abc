@@ -1,7 +1,4 @@
-import HttpMethod
-
-HttpMethod = HttpMethod.HttpMethod
-
+from advance.HttpMethod import HttpMethod
 
 class HttpRequest:
     """http请求"""
